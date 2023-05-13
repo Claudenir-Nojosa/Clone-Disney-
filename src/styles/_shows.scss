@@ -2,6 +2,7 @@
 
 .shows {
     padding: 2vw 5.6vw;
+    min-height: 50vw;
 
     &__list {
         margin-top: 44px;
@@ -34,7 +35,7 @@
             margin: 0 1vw;
             border-bottom: 5px solid transparent;
             &--is-active {
-                border-color: variables$corTextoSecundario;
+                border-color: variables.$corTextoSecundario;
                 border-bottom: 5px solid variables.$corTextoSecundario;
             }
         }
