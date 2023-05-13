@@ -33,6 +33,16 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, 0.5s ease;
+
+                p:last-child {
+                    margin-top: 20px;
+                }
+
+                &__item {
+                    margin-top: 16px;
+                    margin-left: 40px;
+                    list-style: circle;
+                }
             }
             &--is-open {
                 .faq__questions__item__question::after {
